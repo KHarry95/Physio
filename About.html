@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Team</title>
+      <link rel="icon" type="image/x-icon" href="media/favicon.ico">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+      <script src="https://kit.fontawesome.com/2153cc2ece.js" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    </head>
+<body>
+  <header class="scrolled">
+    <nav>
+      <div class="logo">
+        <a href="index.html">
+          <img src="media/kinesis_physiotherapy_new_logo.png" alt="company-logo" class="pic">
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About.html" class="active">Team</a></li>
+        <li><a href="Therapies.html">Therapies</a></li>
+        <li><a href="Premises.html">Premises</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <div class="dropdown">
+          <button class="dropbtn"><i class="fa-solid fa-globe"></i></button>
+          <div class="dropdown-content">
+              <a href="#">EN</a>
+              <a href="About_gr.html">GR</a>
+          </div>
+      </div>
+    </nav>
+
+  </header>
+
+  <!-- Main Section: Scrolling Effect -->
+<div class="about-main">
+  <canvas id="canvas1"></canvas>
+
+  <div class="about-container">
+
+  <div class="about_init">
+    <div class="about_tite">
+      <h1 class="founders">Founders
+      </h1>
+    </div>
+  </div>
+
+    <div class="about_sec1">
+      <div class="blob_div">
+      <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <mask id="mask0" mask-type="alpha">
+        <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547
+        130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775
+        97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666
+        0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+        </mask>
+        <g mask="url(#mask0)">
+        <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346
+        165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403
+        129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028
+        -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+        <image class="home_blob-img" href="media/asip.png"/>
+        </g>
+      </svg>
+    </div>
+
+    <div class="about-inner">
+      <h2>Aggelos Sipitanos</h2>
+      <h3>Physiotherapist</h3>
+      <p>Born in 1978 and a graduate of the Department of Physiotherapy from the Technological Educational Institute of Thessaloniki since 2005,
+        he has many years of experience from working in the largest rehabilitation centers and as a partner in numerous clinics.
+        From offering his services to patients as well as to athletes in clinics and intensive care units,
+        he has specialized in a variety of treatments such as PNF, MANUAL THERAPY, MCKENZIE, MULLIGAN, KINESIOTAPING.
+        He is a member of EFEA (Hellenic Physiotherapy Association of Pain) and he specializes in Biomedical Acupuncture and Dry
+        Needling (Myofascial Release using Dry Needling).
+        Since August 2011, he has been collaborating with his brother Dimitris Sipitanos, in the center of Thessaloniki,
+        at the Physiotherapy Laboratory "KINESIS PHYSICAL THERAPY CENTER", combining clinical experience and knowledge in the service of patients.</p>
+    </div>
+
+    <div class="qualification_section">
+      <div class="qualification_container">
+        <h2 class="section_title qualification_active" data-target='#work'>
+          <i class="fa-solid fa-suitcase"></i>
+          Work
+        </h2>
+        <h2 class="section_title" data-target='#education'>
+          <i class="fa-solid fa-graduation-cap"></i>
+          Education
+        </h2>
+      </div>
+
+      <div class="qualification_content qualification_active" data-content id="work">
+
+        <!--Qualification1!-->
+        <div class="qualification_data">
+          <div>
+            <h3 class="qualification_title">Physiotherapist</h3>
+            <span class="qualification_subtitle">Anagennisi-Rehabilitaion Center</span>
+            <div class="qualification_calendar">
+              <i class="fa-solid fa-calendar-days" style="color: #8b8b8b;"></i>
+              2005-2007
+            </div>
+          </div>
+          <div>
+            <span class="qualification_rounder"></span>
+            <span class="qualification_line"></span>
+          </div>
+          <div></div>
+        </div>
+
+        <!--Qualification2!-->
+        <div class="qualification_data">
+          <div></div>
+          <div>
+            <span class="qualification_rounder"></span>
+            <span class="qualification_line"></span>
+          </div>
+          <div>
+            <h3 class="qualification_title">Department of Physical Medicine and Rehabilitation</h3>
+            <span class="qualification_subtitle">Medical Balkan Center</span>
+            <div class="qualification_calendar">
+              <i class="fa-solid fa-calendar-days" style="color: #8b8b8b;"></i>
+              2007-2010
+            </div>
+          </div>
+        </div>
+
+        <!--Qualification3!-->
+        <div class="qualification_data">
+          <div>
+            <h3 class="qualification_title">Partner</h3>
+            <span class="qualification_subtitle">Euromedica-Kianous Stavros</span>
+            <div class="qualification_calendar">
+              <i class="fa-solid fa-calendar-days" style="color: #8b8b8b;"></i>
+              2010-2014
+            </div>
+          </div>
+          <div>
+            <span class="qualification_rounder"></span>
+            <span class="qualification_line"></span>
+          </div>
+          <div></div>
+        </div>
+
+        <!--Qualification4!-->
+        <div class="qualification_data">
+          <div></div>
+          <div>
+            <span class="qualification_rounder"></span>
+            <!--<span class="qualification_line"></span>-->
+          </div>
+          <div>
+            <h3 class="qualification_title">Owner</h3>
+            <span class="qualification_subtitle">Kinesis</span>
+            <div class="qualification_calendar">
+              <i class="fa-solid fa-calendar-days" style="color: #8b8b8b;"></i>
+              2011-now
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="qualification_content" data-content id="education">
+        <!--Qualification1!-->
+        <div class="qualification_data">
+          <div>
+            <h3 class="qualification_title">BSc Physiotherapy</h3>
+            <span class="qualification_subtitle">Department of Physiotherapy <br>Technological Educational Institute of Thessaloniki </span>
+            <div class="qualification_calendar">
+              <i class="fa-solid fa-calendar-days" style="color: #8b8b8b;"></i>
+              2005
+            </div>
+          </div>
+          <div>
+            <span class="qualification_rounder"></span>
+            <span class="qualification_line"></span>
+          </div>
+          <div></div>
+        </div>
+
+        <!--Qualification2!-->
+        <div class="qualification_data">
+          <div></div>
+          <div>
+            <span class="qualification_rounder"></span>
+            <!--<span class="qualification_line"></span>-->
+          </div>
+          <div>
+            <h3 class="qualification_title">Orthopedic Chirotherapist - Orthopedic Manual Physical Therapist (OMPT)</h3>
+            <span class="qualification_subtitle">Specialization in clinical reasoning and rehabilitation of spine and limb diseases</span>
+            <div class="qualification_calendar">
+              <i class="fa-solid fa-calendar-days" style="color: #8b8b8b;"></i>
+              2016-2021
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    </div>
+
+
+  <!-- Section 2: Scrolling Effect -->
+
+    <div class="about_sec2">
+
+      <div class="qualification_section">
+        <div class="qualification_container">
+          <h2 class="section_title qualification_active_secondary" data-target-secondary='#work_secondary'>
+            <i class="fa-solid fa-suitcase"></i>
+            Work
+          </h2>
+          <h2 class="section_title" data-target-secondary='#education_secondary'>
+            <i class="fa-solid fa-graduation-cap"></i>
+            Education
+          </h2>
+        </div>
+
+        <div class="qualification_content qualification_active_secondary" data-content-secondary id="work_secondary">
+
+          <!--Qualification1!-->
+          <div class="qualification_data">
+            <div>
+              <h3 class="qualification_title">Physiotherapist</h3>
+              <span class="qualification_subtitle">Euromedica-Kianous Stavros</span>
+              <div class="qualification_calendar">
+                <i class="fa-solid fa-calendar-days" style="color: #8b8b8b;"></i>
+                2002-2014
+              </div>
+            </div>
+            <div>
+              <span class="qualification_rounder"></span>
+              <span class="qualification_line"></span>
+            </div>
+            <div></div>
+          </div>
+
+          <!--Qualification2!-->
+          <div class="qualification_data">
+            <div></div>
+            <div>
+              <span class="qualification_rounder"></span>
+              <span class="qualification_line"></span>
+            </div>
+            <div>
+              <h3 class="qualification_title">Head of Physiotherapy Department</h3>
+              <span class="qualification_subtitle">Euromedica-Central Department (Tatiana)</span>
+              <div class="qualification_calendar">
+                <i class="fa-solid fa-calendar-days" style="color: #8b8b8b;"></i>
+                2005-2007
+              </div>
+            </div>
+          </div>
+
+          <!--Qualification3!-->
+          <div class="qualification_data">
+            <div>
+              <h3 class="qualification_title">External partner of Intensive Care Unit and Cardiac Surgery Clinic</h3>
+              <span class="qualification_subtitle">"AHEPA" Hospital and "Galinos" Bioclinic</span>
+              <div class="qualification_calendar">
+                <i class="fa-solid fa-calendar-days" style="color: #8b8b8b;"></i>
+                2011-now
+              </div>
+            </div>
+            <div>
+              <span class="qualification_rounder"></span>
+              <span class="qualification_line"></span>
+            </div>
+            <div></div>
+          </div>
+
+          <!--Qualification4!-->
+          <div class="qualification_data">
+            <div></div>
+            <div>
+              <span class="qualification_rounder"></span>
+              <span class="qualification_line"></span>
+            </div>
+            <div>
+              <h3 class="qualification_title">Owner</h3>
+              <span class="qualification_subtitle">Kinesis</span>
+              <div class="qualification_calendar">
+                <i class="fa-solid fa-calendar-days" style="color: #8b8b8b;"></i>
+                2011-now
+              </div>
+            </div>
+          </div>
+
+            <!--Qualification5!-->
+            <div class="qualification_data">
+              <div>
+                <h3 class="qualification_title">External partner of Anagennisi</h3>
+                <span class="qualification_subtitle">Rehabilitation Center</span>
+                <div class="qualification_calendar">
+                  <i class="fa-solid fa-calendar-days" style="color: #8b8b8b;"></i>
+                  2019-now
+                </div>
+              </div>
+              <div>
+                <span class="qualification_rounder"></span>
+                <!--<span class="qualification_line"></span>-->
+              </div>
+              <div></div>
+            </div>
+
+        </div>
+        <div class="qualification_content" data-content-secondary id="education_secondary">
+
+          <!--Qualification1!-->
+          <div class="qualification_data">
+            <div>
+              <h3 class="qualification_title">BSc Physiotherapy</h3>
+              <span class="qualification_subtitle">Department of Physiotherapy <br>National Gymnastics Academy <br> Sofia, Bulgaria <br>
+                Thesis:<br>"Kinesiotherapy treatment in patients with Parkinson's Syndrome in the Various Stages of the Disease"
+              </span>
+              <div class="qualification_calendar">
+                <i class="fa-solid fa-calendar-days" style="color: #8b8b8b;"></i>
+                1999
+              </div>
+            </div>
+            <div>
+              <span class="qualification_rounder"></span>
+              <span class="qualification_line"></span>
+            </div>
+            <div></div>
+          </div>
+
+          <!--Qualification2!-->
+          <div class="qualification_data">
+            <div></div>
+            <div>
+              <span class="qualification_rounder"></span>
+              <span class="qualification_line"></span>
+            </div>
+            <div>
+              <h3 class="qualification_title">MSc Department of Physiotherapy</h3>
+              <span class="qualification_subtitle">Coventry University <br>Thesis:<br>"Massage in Patients with Depression"</span>
+              <div class="qualification_calendar">
+                <i class="fa-solid fa-calendar-days" style="color: #8b8b8b;"></i>
+                2002
+              </div>
+            </div>
+          </div>
+
+          <!--Qualification3!-->
+          <div class="qualification_data">
+            <div>
+              <h3 class="qualification_title">Orthopedic Manual Physical Therapist (OMPT)</h3>
+              <span class="qualification_subtitle">Neuromuscular rehabilitation & Musculoskeletal dysfunctions of the human body through special mobilizations and manipulations</span>
+              <div class="qualification_calendar">
+                <i class="fa-solid fa-calendar-days" style="color: #8b8b8b;"></i>
+                2016-2021
+              </div>
+            </div>
+            <div>
+              <span class="qualification_rounder"></span>
+              <!--<span class="qualification_line"></span>-->
+            </div>
+            <div></div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="about-inner">
+        <h2>Dimitris Sipitanos</h2>
+        <h3>Physiotherapist</h3>
+        <p>Born in 1975 and a graduate of the Department of Physiotherapy of the National Gymnastics Academy
+           of Bulgaria in Sofia since 1999, he has many years of experience from his work in the largest rehabilitation centers and as a partner of
+           numerous clinics (Intensive Treatment Unit, in Orthopedics and Neurosurgical cases). He is a member of EFEA (Hellenic Physiotherapy Association of Pain)
+           and specializes in  Biomedical Acupuncture and Myofascial Release with Dry Needling. He specializes also in therapeutic techniques such as
+           Mulligan Concept, Kinesiotaping etc.
+           Since August 2011, he has been collaborating with his brother Aggelos Sipitanos, in the center of Thessaloniki,
+           at the Physiotherapy Laboratory "KINESIS PHYSICAL THERAPY CENTER", combining clinical experience and knowledge in the service of patients.
+         </p>
+      </div>
+      <div class="blob_div">
+      <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <mask id="mask0" mask-type="alpha">
+        <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547
+        130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775
+        97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666
+        0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+        </mask>
+        <g mask="url(#mask0)">
+        <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346
+        165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403
+        129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028
+        -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+        <image class="home_blob-img" href="media/dsip.png">
+        </g>
+      </svg>
+    </div>
+
+    </div>
+
+    <div class="about_init">
+      <div class="about_tite">
+        <h1 class="staff">Staff
+        </h1>
+      </div>
+    </div>
+
+    <div class="staff_grid">
+
+      <div class="staff_section">
+        <div class="blob_div">
+        <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <mask id="mask0" mask-type="alpha">
+          <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547
+          130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775
+          97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666
+          0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+          </mask>
+          <g mask="url(#mask0)">
+          <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346
+          165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403
+          129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028
+          -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+          <image class="home_blob-img" href="media/msanid.jpg"/>
+          </g>
+        </svg>
+      </div>
+        <div class="staff_name">Marianna Sanida
+        </div><br>
+        <div class="staff_misc">Physiotherapist<br>International University of Greece, Thessaloniki<br>
+          Certified Manual Therapist (MT-OMPT)<br>
+          Specialization in Hydrotherapy (Halliwick Foundation Course) &
+          in Elastic Therapeutic Taping in Pediatrics
+        </div>
+      </div>
+
+      <div class="staff_section">
+        <div class="blob_div">
+        <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <mask id="mask0" mask-type="alpha">
+          <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547
+          130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775
+          97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666
+          0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+          </mask>
+          <g mask="url(#mask0)">
+          <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346
+          165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403
+          129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028
+          -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+          <image class="home_blob-img" href="media/dpap.jpg"/>
+          </g>
+        </svg>
+      </div>
+        <div class="staff_name">Dimitra Papanota
+        </div><br>
+        <div class="staff_misc">Physiotherapist<br>International University of Greece, Thessaloniki<br>
+          Certified in C.P.R. - use of defibrillator (BLS/AED)<br>
+          Specialization in PNF stretching for hip range of motion in female rhythmic gymnasts
+        </div>
+      </div>
+
+      <div class="staff_section">
+        <div class="blob_div">
+        <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <mask id="mask0" mask-type="alpha">
+          <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547
+          130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775
+          97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666
+          0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+          </mask>
+          <g mask="url(#mask0)">
+          <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346
+          165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403
+          129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028
+          -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+          <image class="home_blob-img" href="media/ztheod.jpg"/>
+          </g>
+        </svg>
+      </div>
+        <div class="staff_name">Zoe Theodoroudi
+        </div><br>
+        <div class="staff_misc">Physical Therapist Assistant<br>Private Educational Institution of Epanomi<br>First Aid, Child Psychology, Therapeutic and Lymphatic Massage Seminars
+        </div>
+      </div>
+
+      <div class="staff_section">
+        <div class="blob_div">
+        <svg class="home_blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <mask id="mask0" mask-type="alpha">
+          <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547
+          130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775
+          97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666
+          0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+          </mask>
+          <g mask="url(#mask0)">
+          <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346
+          165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403
+          129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028
+          -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+          <image class="home_blob-img" href="media/ltsal.jpg"/>
+          </g>
+        </svg>
+      </div>
+        <div class="staff_name">Litsa Tsaliki
+        </div><br>
+        <div class="staff_misc">Secretarial Support<br>Communication Officer - Patient Reception - Session Planning
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="grid">
+      <div class="grid-item">
+        <img src="media/kinesis_physiotherapy_new_logo1.png" alt="company-logo" class="footer-logo">
+      </div>
+      <div class="grid-item">
+        <h3>Platform</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="About.html">Team</a></li>
+          <li><a href="Therapies.html">Therapies</a></li>
+          <li><a href="Premises.html">Premises</a></li>
+          <li><a href="Contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="grid-item">
+        <h3>Contact</h3>
+        <ul>
+        <li><i class="fa-solid fa-location-pin"></i>
+          St. Paleon Patron Germanou 8
+        </li>
+        <li>Thessaloniki, 54622</li>
+        <li><i class="fa-solid fa-phone"></i>
+          (+30) 2310 244 423
+        </li>
+        <li><i class="fa-solid fa-envelope"></i>
+          kinesis2310@gmail.com
+        </li>
+        </ul>
+      </div>
+      <div class="grid-item">
+        <h3>Follow Us</h3>
+        <ul class="social-media-icons">
+          <li><a href="https://m.facebook.com/p/Kinesis-Physio-100063503532520"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-12">
+        <p>&copy; 2024 Harris Kaplanidis. All Rights Reserved. | <a href="Terms_of_Service.html">Terms of Service</a> | <a href="Privacy_Policy.html">Privacy Policy</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script type="text/javascript">
+  (function(d, t) {
+      var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+      v.onload = function() {
+        window.voiceflow.chat.load({
+          verify: { projectID: '65912c3b054425eb5487cc2d' },
+          url: 'https://general-runtime.voiceflow.com',
+          versionID: 'production'
+        });
+      }
+      v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+  })(document, 'script');
+</script>
+
+  <script src="scripts/navbar.js"></script>
+  <script src="scripts/particles.js"></script>
+  <script src="scripts/qualification.js"></script>
+
+</body>
+</html>

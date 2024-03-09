@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Επικοινωνία</title>
+      <link rel="icon" type="image/x-icon" href="media/favicon.ico">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+      <script src="https://kit.fontawesome.com/2153cc2ece.js" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+      <script src="https://www.google.com/recaptcha/api.js"></script>
+
+    </head>
+<body>
+  <header class="scrolled">
+    <nav>
+      <div class="logo">
+        <a href="index_gr.html">
+          <img src="media/kinesis_physiotherapy_new_logo.png" alt="company-logo" class="pic">
+      </div>
+      <ul class="nav-links">
+        <li><a href="index_gr.html">Αρχική</a></li>
+        <li><a href="About_gr.html">Ομάδα</a></li>
+        <li><a href="Therapies_gr.html">Θεραπείες</a></li>
+        <li><a href="Premises_gr.html">Εγκαταστάσεις</a></li>
+        <li><a href="Contact_gr.html" class="active">Επικοινωνία</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <div class="dropdown">
+          <button class="dropbtn"><i class="fa-solid fa-globe"></i></button>
+          <div class="dropdown-content">
+              <a href="Contact.html">EN</a>
+              <a href="#">GR</a>
+          </div>
+      </div>
+    </nav>
+
+  </header>
+  <div class="contact-section">
+  <div class="contact-container">
+    <div class="contact-box">
+    <span class="big-circle"></span>
+    <div class="contact-details">
+      <h3>Στοιχεία επικοινωνίας</h3>
+      <ul class="info">
+        <li class="inner-info">
+          <i class="fa-solid fa-location-dot"></i>
+          Παλαιών Πατρών Γερμανού 8<br>
+          1ος Όροφος<br>
+          Θεσσαλονίκη<br>
+          Τ.Κ. 54622
+        </li>
+        <li class="inner-info">
+          <i class="fa-solid fa-phone"></i>
+          2310 244 423
+        </li>
+        <li class="inner-info">
+          <i class="fa-solid fa-mobile-screen"></i>
+            Άγγελος Σιπητάνος<br>
+            69 37 09 96 46
+        </li>
+        <li class="inner-info">
+          <i class="fa-solid fa-mobile-screen"></i>
+            Δημήτριος Σιπητάνος <br>
+            69 32 45 66 60
+        </li>
+        <li class="inner-info">
+          <i class="fa-regular fa-envelope"></i>
+            kinesis2310@gmail.com
+        </li>
+      </ul>
+      <div class="contact-details">
+      <h3>Ακολουθήστε μας</h3>
+      <ul class="social-media-icons-contact">
+        <li><a href="https://m.facebook.com/p/Kinesis-Physio-100063503532520"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+      </ul>
+      </div>
+    </div>
+  </div>
+
+
+    <form class="contact-form" id="contact_form" method="post" action="SendMail.php" >
+      <span class="circle-one"></span>
+      <span class="circle-two"></span>
+      <h4 class="contact-header">Επικοινωνία</h4>
+      <div class="input-box">
+        <input type="text" class="input" maxlength="35" required id="contact-name" onkeyup="validateName()" name="name">
+        <label for="contact-name">Ονοματεπώνυμο*</label>
+        <span id="name-error"></span>
+      </div>
+      <div class="input-box">
+        <input type="text" class="input" maxlength="45" required id="contact-email" onkeyup="validateEmail()" name="email">
+        <label for="contact-email">Email*</label>
+        <span id="email-error"></span>
+      </div>
+      <div class="input-box">
+        <input type="tel" class="input" maxlength="10" required id="contact-phone" onkeyup="validatePhone()" name="phone">
+        <label for="contact-phone">Τηλέφωνο</label>
+        <span id="phone-error"></span>
+      </div>
+      <div class="input-box">
+        <textarea class="input" maxlength="1000" required id="message" cols="30" rows="10" name="comment"></textarea>
+        <label for="message">Μήνυμα*</label>
+      </div>
+      <button class="g-recaptcha"
+        data-sitekey="6Lf2KI8pAAAAAAZZmOAv7itgxsLOxP2tvXX8jmZv"
+        data-callback='onSubmit'
+        data-action='submit'>Αποστολή</button>
+    </form>
+  </div>
+</div>
+
+  <div id="map-container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.94725451039!2d22.94400107591797!3d40.631045171405894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a83906c46089dd%3A0xf94a8c1062c221bb!2zzqDOsc67zrHOuc-Ozr0gzqDOsc-Ez4HPjs69IM6TzrXPgc68zrHOvc6_z40gOCwgzpjOtc-Dz4POsc67zr_Ovc6vzrrOtyA1NDYgMjI!5e0!3m2!1sel!2sgr!4v1683052215809!5m2!1sel!2sgr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="grid">
+        <div class="grid-item">
+          <img src="media/kinesis_physiotherapy_new_logo1.png" alt="company-logo" class="footer-logo">
+        </div>
+        <div class="grid-item">
+          <h3>Πλατφόρμα</h3>
+          <ul>
+            <li><a href="index_gr.html">Αρχική</a></li>
+            <li><a href="About_gr.html">Ομάδα</a></li>
+            <li><a href="Therapies_gr.html">Θεραπείες</a></li>
+            <li><a href="Premises_gr.html">Εγκαταστάσεις</a></li>
+            <li><a href="Contact_gr.html">Επικοινωνία</a></li>
+          </ul>
+        </div>
+        <div class="grid-item">
+          <h3>Επικοινωνία</h3>
+          <ul>
+          <li><i class="fa-solid fa-location-pin"></i>
+            Παλαιών Πατρών Γερμανού 8
+          </li>
+          <li>Θεσσαλονίκη, 54622</li>
+          <li><i class="fa-solid fa-phone"></i>
+            (+30) 2310 244 423
+          </li>
+          <li><i class="fa-solid fa-envelope"></i>
+            kinesis2310@gmail.com
+          </li>
+          </ul>
+        </div>
+        <div class="grid-item">
+          <h3>Ακολουθήστε μας</h3>
+          <ul class="social-media-icons">
+            <li><a href="https://m.facebook.com/p/Kinesis-Physio-100063503532520"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-12">
+          <p>&copy; 2024 Harris Kaplanidis. All Rights Reserved. | <a href="Terms_of_Service.html">Όροι χρήσης</a> | <a href="Privacy_Policy.html">Πολιτική απορρήτου</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript">
+  (function(d, t) {
+      var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+      v.onload = function() {
+        window.voiceflow.chat.load({
+          verify: { projectID: '65912c3b054425eb5487cc2d' },
+          url: 'https://general-runtime.voiceflow.com',
+          versionID: 'production'
+        });
+      }
+      v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+  })(document, 'script');
+</script>
+
+  <script>
+    function onSubmit(token) {
+      document.getElementById("contact_form").submit();
+    }
+  </script>
+
+  <script src="scripts/navbar.js"></script>
+  <script src="scripts/form_validation.js"></script>
+</body>
+</html>

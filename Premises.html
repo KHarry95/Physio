@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Premises</title>
+      <link rel="icon" type="image/x-icon" href="media/favicon.ico">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+      <script src="https://kit.fontawesome.com/2153cc2ece.js" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    </head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="index.html">
+          <img src="media/kinesis_physiotherapy_new_logo.png" alt="company-logo" class="pic">
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About.html">Team</a></li>
+        <li><a href="Therapies.html">Therapies</a></li>
+        <li><a href="Premises.html" class="active">Premises</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <div class="dropdown">
+          <button class="dropbtn"><i class="fa-solid fa-globe"></i></button>
+          <div class="dropdown-content">
+              <a href="#">EN</a>
+              <a href="Premises_gr.html">GR</a>
+          </div>
+      </div>
+    </nav>
+
+  </header>
+
+<main id="mainPremises">
+  <div class="carousel-container">
+    <div id="imageCarousel" class="carousel">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <img src="media/physio1.jpg" alt="Image 1" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="media/physio2.jpg" alt="Image 2" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="media/physio3.jpg" alt="Image 2" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="media/physio4.jpg" alt="Image 2" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="media/physio5.jpg" alt="Image 2" class="d-block w-100">
+        </div>
+        <!-- Add more carousel items as needed -->
+      </div>
+      <a class="carousel-control-prev" href="#" role="button" onclick="changeSlide('prev')">
+        &lt;
+      </a>
+      <a class="carousel-control-next" href="#" role="button" onclick="changeSlide('next')">
+        &gt;
+      </a>
+      <div class="caption-container">
+        <div id="caption" class="caption"></div>
+      </div>
+      <div class="carousel-indicators">
+        <span class="indicator" onclick="currentSlide(1)"></span>
+        <span class="indicator" onclick="currentSlide(2)"></span>
+        <span class="indicator" onclick="currentSlide(3)"></span>
+        <span class="indicator" onclick="currentSlide(4)"></span>
+        <span class="indicator" onclick="currentSlide(5)"></span>
+        <!-- Add more indicators as needed -->
+      </div>
+    </div>
+  </div>
+
+  <div class="MainContent">
+    <div class="PremContainer">
+      <div class="MainTxt">
+        <div class="intro">
+          <p>
+          At our state-of-the-art physical therapy center, we prioritize the unique needs of each individual, fostering an environment of respect and personalized care. Our fully equipped therapy rooms are tailored to accommodate a diverse range of rehabilitation needs, ensuring that every patient receives the specialized attention they deserve. Our qualified and knowledgeable staff is dedicated to crafting individualized therapy plans, taking into account each person's distinct condition and requirements. We believe in treating not just the ailment but the person as a whole, promoting holistic well-being through compassionate and personalized rehabilitation services.
+        </p>
+        </div>
+        <div class="DescTxt">
+          <p>Our commitment to excellence extends beyond the cutting-edge equipment in our therapy rooms. Our team of highly qualified professionals boasts deep expertise in their respective fields, ensuring that patients receive the highest standard of care. From orthopedic issues to neurological conditions, our therapists are equipped with the knowledge and skills needed to guide individuals through their unique rehabilitation journeys. With a focus on continual learning and staying abreast of the latest advancements in physical therapy, our staff is dedicated to providing comprehensive and effective care to optimize each patient's recovery.
+          </p>
+          <p>
+          Step into our physical therapy center, and you'll find an environment specifically designed to foster healing and rehabilitation. We understand that the journey to recovery is not only physical but also emotional and mental. Our facility provides a supportive atmosphere where individuals can comfortably work towards restoring their health and functionality. From soothing interiors to well-designed exercise spaces, every aspect of our center is intended to contribute to the overall well-being of our patients. With a commitment to creating a conducive environment for rehabilitation, we strive to make every step towards recovery a positive and empowering experience for all who walk through our doors.
+        </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="NumberedItems">
+    <div class="PremContainerList"
+      <div class="PremRow">
+        <div class="PremItem">
+          <div class="PremCol">
+            <div class="ItemNum">
+              6 Rooms
+            </div>
+            <div class="ItemTxt">
+              Large rooms with many amenities
+            </div>
+          </div>
+          <div class="PremCol">
+            <div class="ItemNum">
+              6+ Employees
+            </div>
+            <div class="ItemTxt">
+              Qualified employees with great knowledge
+            </div>
+          </div>
+          <div class="PremCol">
+            <div class="ItemNum">
+              10+ Therapies
+            </div>
+            <div class="ItemTxt">
+              Wide range of therapies
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="grid">
+      <div class="grid-item">
+        <img src="media/kinesis_physiotherapy_new_logo1.png" alt="company-logo" class="footer-logo">
+      </div>
+      <div class="grid-item">
+        <h3>Platform</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="About.html">Team</a></li>
+          <li><a href="Therapies.html">Therapies</a></li>
+          <li><a href="Premises.html">Premises</a></li>
+          <li><a href="Contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="grid-item">
+        <h3>Contact</h3>
+        <ul>
+        <li><i class="fa-solid fa-location-pin"></i>
+          St. Paleon Patron Germanou 8
+        </li>
+        <li>Thessaloniki, 54622</li>
+        <li><i class="fa-solid fa-phone"></i>
+          (+30) 2310 244 423
+        </li>
+        <li><i class="fa-solid fa-envelope"></i>
+          kinesis2310@gmail.com
+        </li>
+        </ul>
+      </div>
+      <div class="grid-item">
+        <h3>Follow Us</h3>
+        <ul class="social-media-icons">
+          <li><a href="https://m.facebook.com/p/Kinesis-Physio-100063503532520"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-md-12">
+        <p>&copy; 2024 Harris Kaplanidis. All Rights Reserved. | <a href="Terms_of_Service.html">Terms of Service</a> | <a href="Privacy_Policy.html">Privacy Policy</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script type="text/javascript">
+  (function(d, t) {
+      var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+      v.onload = function() {
+        window.voiceflow.chat.load({
+          verify: { projectID: '65912c3b054425eb5487cc2d' },
+          url: 'https://general-runtime.voiceflow.com',
+          versionID: 'production'
+        });
+      }
+      v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+  })(document, 'script');
+</script>
+
+
+  <script src="scripts/navbar.js"></script>
+  <script src="scripts/header_scroll.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="scripts/PremCarousel.js"></script>
+  <script src="scripts/caption_typing.js"></script>
+
+</body>
+</html>
